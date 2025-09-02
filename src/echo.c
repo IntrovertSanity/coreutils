@@ -161,7 +161,7 @@ int main(int argc, char** argv) {
             
         } else {
             if (first_arg) putchar(' ');
-            printf("%s ", argv[i]);
+            printf("%s", argv[i]);
         }
         first_arg = 1;
     }
