@@ -4,9 +4,8 @@
 #include <globals.h>
 #include <string.h>
 #include <unistd.h>
-#include <ctype.h>
 
-#define PROGRAM_NAME "echo"
+#define PROGRAM_NAME "cat"
 
 #define BUFFER_SIZE (1 * 1024 * 1024)
 
